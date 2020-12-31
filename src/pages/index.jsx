@@ -1,9 +1,7 @@
-import { Button } from '@material-ui/core'
-
 function Home() {
   return (
     <div>
-      <Button>Done</Button>
+      <h1>Home</h1>
     </div>
   )
 }

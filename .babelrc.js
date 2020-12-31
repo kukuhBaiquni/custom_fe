@@ -19,6 +19,15 @@ const plugins = [
     },
     'icons',
   ],
+  [
+    'babel-plugin-import',
+    {
+      libraryName: '@material-ui/lab',
+      libraryDirectory: 'esm',
+      camel2DashComponentName: false,
+    },
+    'lab'
+  ]
 ]
 
 module.exports = { plugins }
