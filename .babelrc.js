@@ -27,6 +27,15 @@ const plugins = [
       camel2DashComponentName: false,
     },
     'lab'
+  ],
+  [
+    'babel-plugin-import',
+    {
+      libraryName: '@material-ui/system',
+      libraryDirectory: 'esm',
+      camel2DashComponentName: false,
+    },
+    'system'
   ]
 ]
 
