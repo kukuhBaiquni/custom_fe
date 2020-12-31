@@ -1,8 +1,10 @@
-/* eslint-disable arrow-body-style */
+import { Button } from '@material-ui/core'
 
-const Home = () => {
+function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Button>Done</Button>
+    </div>
   )
 }
 
