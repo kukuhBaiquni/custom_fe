@@ -7,8 +7,8 @@ const { Header } = Layout
 
 const FluidNavbarContainer = styled.div`
   width: 100%;
-  background: rgb(107,193,92);
-  background: linear-gradient(0deg, rgba(107,193,92,1) 0%, rgba(21,138,0,1) 100%);
+  background: #5cb6c1;
+  background: linear-gradient(0deg, #5cb6c1 0%, #06f0ed 100%);
 `
 
 const NavigationBar = styled(Header)`

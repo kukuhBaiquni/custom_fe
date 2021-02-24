@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.less'
-import Home from './pages/Home'
+import Layout from 'layout'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Layout />
   </React.StrictMode>,
   document.getElementById('root'),
 )
